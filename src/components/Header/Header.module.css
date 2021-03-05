@@ -4,6 +4,8 @@
 }
 
 .header img {
-    width: 20px;
+    width: 90px;
+    margin: 5px;
+    border-radius: 10px;
 }
 
