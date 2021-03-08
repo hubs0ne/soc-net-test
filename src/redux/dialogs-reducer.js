@@ -12,7 +12,7 @@ let initialState = {
   ],
   messages: [
     { id: 1, message: "Hi" },
-    { id: 2, message: "How is your it-kamasutra?" },
+    { id: 2, message: "How u bro?" },
     { id: 3, message: "Yo" },
     { id: 4, message: "Yo" },
     { id: 5, message: "Yo" },
@@ -21,7 +21,6 @@ let initialState = {
 };
 
 export const dialogsReducer = (state = initialState, action) => {
-  let stateCopy;
 
   switch (action.type) {
     case UPDATE_NEW_MESSAGE_BODY:
